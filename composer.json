@@ -1,0 +1,20 @@
+{
+  "name": "patrick/timetracking",
+  "description": "Project that allows to track your time.",
+  "type": "project",
+  "authors": [
+    {
+      "name": "AJPatrick",
+      "email": "p.gaida@apriljune.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Patrick\\TimeTracking\\": "src"
+    }
+  }
+}

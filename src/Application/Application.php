@@ -11,5 +11,19 @@ namespace Patrick\TimeTracking\Application;
 
 class Application
 {
+    /**
+     * @var ApplicationConfig
+     */
+    private $applicationConfig;
+
+    /**
+     * Application constructor.
+     * @param $applicationConfig
+     */
+    public function __construct(ApplicationConfig $applicationConfig)
+    {
+        $this->applicationConfig = $applicationConfig;
+    }
+
 
 }

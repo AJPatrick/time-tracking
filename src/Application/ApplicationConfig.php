@@ -8,7 +8,11 @@
 
 namespace Patrick\TimeTracking\Application;
 
-
+/**
+ * Class ApplicationConfig
+ * @package Patrick\TimeTracking\Application
+ * @property array $database
+ */
 class ApplicationConfig
 {
     /**
